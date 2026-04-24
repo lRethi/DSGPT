@@ -67,7 +67,7 @@ namespace DSGPT
             {
                 ProcessUserInput(txtInput.Text);
                 txtInput.Clear();
-                e.SuppressKeyPress = true; // evita beep
+                e.SuppressKeyPress = true;
             }
         }
 
@@ -80,6 +80,7 @@ namespace DSGPT
             {
                 if (extracted[i] != 0)
                     currentFeatures[i] = extracted[i];
+                Console.Write(i);
             }
 
             // verifica se já tem dados suficientes
@@ -90,6 +91,10 @@ namespace DSGPT
 
                 // reseta pra nova conversa
                 currentFeatures = new double[11];
+            }
+            else
+            {
+                lblResultado.Text = "Acumulando dados! Dê mais informações!";
             }
         }
         private bool IsReadyToPredict()
