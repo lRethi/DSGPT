@@ -88,6 +88,7 @@ namespace DSGPT
             {
                 string result = knn.Predict(currentFeatures);
                 lblResultado.Text = "Resultado: " + result;
+                AnimateMouth();
 
                 // reseta pra nova conversa
                 currentFeatures = new double[11];
@@ -109,6 +110,37 @@ namespace DSGPT
                 currentFeatures[10] == 1;  // Socket
 
             return temTipo && filled >= 3;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private int animFrame = 0;
+        private int animCount = 0;
+
+        private void AnimateMouth()
+        {
+            animFrame = 0;
+            animCount = 0;
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            string basePath = Application.StartupPath + "C:\\Users\\Alunos\\Pictures\\Saved Pictures";
+
+            if (animFrame % 2 == 0)
+                pictureBox1.ImageLocation = basePath + "boca_fechada.png";
+            else
+                pictureBox1.ImageLocation = basePath + "boca_aberta.png";
+
+            animFrame = 1 - animFrame;
+            animCount++;
+
+            if (animCount > 6)
+                timer1.Stop();
         }
     }
 }

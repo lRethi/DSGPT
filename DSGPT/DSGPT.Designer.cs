@@ -29,8 +29,13 @@ namespace DSGPT
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DSGPT));
             this.txtInput = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtInput
@@ -52,9 +57,20 @@ namespace DSGPT
             this.lblResultado.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblResultado.Location = new System.Drawing.Point(40, 70);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(99, 15);
+            this.lblResultado.Size = new System.Drawing.Size(54, 15);
             this.lblResultado.TabIndex = 1;
-            this.lblResultado.Text = "lblResultado";
+            this.lblResultado.Text = "Output";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(688, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 101);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // DSGPT
             // 
@@ -62,12 +78,14 @@ namespace DSGPT
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtInput);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "DSGPT";
             this.Text = "DSGPT";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,6 +95,8 @@ namespace DSGPT
 
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 
