@@ -29,14 +29,17 @@ namespace DSGPT
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DSGPT));
             this.txtInput = new System.Windows.Forms.TextBox();
             this.lblResultado = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtInput
             // 
             this.txtInput.BackColor = System.Drawing.SystemColors.InfoText;
-            this.txtInput.Font = new System.Drawing.Font("Stardew Valley", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtInput.ForeColor = System.Drawing.Color.Snow;
             this.txtInput.Location = new System.Drawing.Point(12, 368);
             this.txtInput.Name = "txtInput";
@@ -48,13 +51,24 @@ namespace DSGPT
             // 
             this.lblResultado.AutoSize = true;
             this.lblResultado.BackColor = System.Drawing.Color.Navy;
-            this.lblResultado.Font = new System.Drawing.Font("KiwiSoda", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.Font = new System.Drawing.Font("VCR OSD Mono", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultado.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblResultado.Location = new System.Drawing.Point(40, 70);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(99, 15);
+            this.lblResultado.Size = new System.Drawing.Size(457, 28);
             this.lblResultado.TabIndex = 1;
-            this.lblResultado.Text = "lblResultado";
+            this.lblResultado.Text = "Olá, sou sua assistente de montagem de computador.\r\nDescreva sua peça e ajudarei " +
+    "a montar seu pc!";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(558, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(159, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // DSGPT
             // 
@@ -62,12 +76,14 @@ namespace DSGPT
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.txtInput);
             this.ForeColor = System.Drawing.SystemColors.Control;
             this.Name = "DSGPT";
             this.Text = "DSGPT";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,6 +93,7 @@ namespace DSGPT
 
         private System.Windows.Forms.TextBox txtInput;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

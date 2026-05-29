@@ -69,27 +69,44 @@ namespace DSGPT
                 new KeywordRule
                 {
                     Feature = FeatureType.NVMe,
-                    Keywords = new[] { "nvme", "m.2" }
+                    Keywords = new[] { "nvme", "m.2",
+                                        "2280", "2260", "2242",
+                                        "pcie 4.0", "pcie 3.0",
+                                        "ssd m2", "ssd m.2", "vários conectores" }
                 },
                 new KeywordRule
                 {
                     Feature = FeatureType.SATA,
-                    Keywords = new[] { "sata", "hd", "hdd" }
+                    Keywords = new[] { "sata", "sata3", "sata 3",
+                                    "2.5", "2.5\"",
+                                    "cabo sata",
+                                    "hd", "hdd", "vários conectores" }
                 },
                 new KeywordRule
                 {
                     Feature = FeatureType.PCIe,
-                    Keywords = new[] { "gpu", "placa de vídeo", "pcie" }
+                    Keywords = new[] { "gpu", "placa de video", "pcie",
+                                        "rtx", "gtx", "radeon",
+                                        "vga",
+                                        "gddr5", "gddr6",
+                                        "fan", "cooler gpu", "vários conectores" }
                 },
                 new KeywordRule
                 {
                     Feature = FeatureType.DIMM,
-                    Keywords = new[] { "ram", "ddr" }
+                    Keywords = new[] { "ram", "ddr", "dimm",
+                                        "ddr3", "ddr4", "ddr5",
+                                        "2666mhz", "3200mhz", "3600mhz",
+                                        "mhz",
+                                        "memoria", "vários conectores" }
                 },
                 new KeywordRule
                 {
                     Feature = FeatureType.Socket,
-                    Keywords = new[] { "cpu", "processador", "ryzen", "intel" }
+                    Keywords = new[] { "cpu", "processador", "ryzen", "intel",
+                                        "i3", "i5", "i7", "i9",
+                                        "am4", "am5", "lga", "lga1200", "lga1700",
+                                        "socket", "soquete", "vários conectores" }
                 }
             };
         }

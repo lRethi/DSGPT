@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|C:\\Users\\Alunos\\source\\repos\\DSGPT\\dsgpt\\dsgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|solutionrelative:dsgpt\\dsgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|C:\\Users\\Alunos\\source\\repos\\DSGPT\\dsgpt\\dsgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|solutionrelative:dsgpt\\dsgpt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|c:\\users\\alunos\\source\\repos\\dsgpt\\dsgpt\\featureextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|solutionrelative:dsgpt\\featureextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|C:\\Users\\Alunos\\source\\repos\\DSGPT\\dsgpt\\knn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E16E05-3FDE-45ED-83F3-501111C5A912}|DSGPT\\DSGPT.csproj|solutionrelative:dsgpt\\knn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DSGPT.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\DSGPT.cs",
+              "RelativeDocumentMoniker": "DSGPT\\DSGPT.cs",
+              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\DSGPT.cs",
+              "RelativeToolTip": "DSGPT\\DSGPT.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:53:51.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FeatureExtractor.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\FeatureExtractor.cs",
+              "RelativeDocumentMoniker": "DSGPT\\FeatureExtractor.cs",
+              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\FeatureExtractor.cs",
+              "RelativeToolTip": "DSGPT\\FeatureExtractor.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:53:46.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KNN.cs",
+              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\KNN.cs",
+              "RelativeDocumentMoniker": "DSGPT\\KNN.cs",
+              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\KNN.cs",
+              "RelativeToolTip": "DSGPT\\KNN.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:53:43.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DSGPT.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\DSGPT.cs",
+              "RelativeDocumentMoniker": "DSGPT\\DSGPT.cs",
+              "ToolTip": "C:\\Users\\Alunos\\source\\repos\\DSGPT\\DSGPT\\DSGPT.cs [Design]",
+              "RelativeToolTip": "DSGPT\\DSGPT.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-24T13:52:58.721Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
